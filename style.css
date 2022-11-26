@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-weight: 500;
+    font-size: small;
+}
+span{
+    font-weight: 500;
+}
+button{
+    font-weight: 400;
+}
+.page{
+    width: auto;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.div1{
+    display: flex;
+}
+
+.firstrow{
+    margin: 10px;
+}
+
+/* BOX 1 */
+
+.box1{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin: 5px 20px;
+}
+
+
+.box1 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    background-color: rgba(128, 128, 128, 0.061);
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box1 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    z-index: 1;
+    float: right;
+    margin-top: 4px;
+}
+/* BOX 2 */
+
+.box2{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin:  30px 20px;
+}
+
+.box2 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box2 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+    float: right;
+    margin-top: 4px;
+}
+
+/* BOX 3 */
+
+.box3{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin: 30px 20px;
+}
+
+.box3 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box3 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+    float: right;
+    margin-top: 4px;
+}
+
+/* Second Column
+   Box 4
+*/
+
+.box4{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin: 15px 10px;
+}
+
+.box4 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box4 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+    float: right;
+    margin-top: 4px;
+}
+
+
+/* Second Column
+   Box 5
+*/
+
+.box5{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin: 30px 10px;
+}
+
+.box5 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box5 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+    float: right;
+    margin-top: 4px;
+}
+
+
+/* Second Column
+   Box 6
+*/
+
+.box6{
+    width: 250px;
+    height: 310px;
+    border: 1px solid rgb(206, 206, 206);
+    margin: 30px 10px;
+}
+
+.box6 img{
+    width: 250px;
+    height: 180px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.d1 p{
+    margin-top: 3px;
+}
+.info1{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info2{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.info3{
+    margin: 0;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.box6 h1{
+    font-size: medium;
+}
+
+.d2{
+    margin: 3%;
+    line-height: 25px;
+}
+.d2 span{
+    color: red;
+    font-size: 12px;
+}
+.d2 p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.d2 button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    z-index: 1;
+    float: right;
+    margin-top: -1px;
+}
+
+/* Div2 column */
+
+.div2{
+    float: right;
+    border: 5px solid rgba(128, 128, 128, 0.211);
+    width: 255px;
+    margin-top: 16px;
+    height: 990px;
+    margin: 10px;
+}
+
+.inputs1{
+    margin: 5% 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 90px;
+}
+.Dv1{
+    width: 100%;
+    height: 30px;
+    margin-top:  10px;
+}
+.inputs1 button{
+    width: 112px;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    margin-top: 15px;
+}
+.div2 .minmax{
+    display: flex;
+    justify-content: space-between;
+}
+.div2 .minmax .Dv1{
+    width: 110px;
+}
+
+.inputs1 h3{
+    margin-top: -35px;
+    margin-bottom: -35px;
+    font-size: 16px;
+}
+
+/* input 2 */
+
+.inputs2{
+    border-top: 1px solid grey;
+    margin-top: 30px;
+}
+.maindiv{
+    margin: 4% 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.maindiv h3{
+    font-size: 16px
+}
+
+/* Smalldivs */
+.smalldiv1{
+    width: 228px;
+    height: 101px;
+    margin-top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.307);
+}
+.imgprice{
+    display: flex;
+}
+.imgprice img{
+    width: 80px;
+    height: 60px;
+}
+.smalldiv1 .d1{
+    margin-top: 0px;
+    background-color: rgba(128, 128, 128, 0.067);
+}
+.modelprice{
+    line-height: 30px;
+    margin-left: 8px;
+}
+.modelprice span{
+    color: red;
+}
+.smalldiv1 .d1 .info1 {
+    height: 40px;
+}
+.smalldiv1 .d1 .info2 {
+    height: 40px;
+}
+.smalldiv1 .d1 .info3 {
+    height: 40px;
+}
+.smalldiv1 .d1 p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Small div2 */
+.smalldiv2{
+    width: 228px;
+    height: 101px;
+    margin-top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.307);
+}
+.smalldiv2 .d1{
+    margin-top: 0px;
+    background-color: rgba(128, 128, 128, 0.067);
+}
+.smalldiv2 .d1 .info1 {
+    height: 40px;
+}
+.smalldiv2 .d1 .info2 {
+    height: 40px;
+}
+.smalldiv2 .d1 .info3 {
+    height: 40px;
+}
+.smalldiv2 .d1 p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+/* Small div3 */
+.smalldiv3{
+    width: 228px;
+    height: 101px;
+    margin-top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.307);
+}
+.smalldiv3 .d1{
+    margin-top: 0px;
+    background-color: rgba(128, 128, 128, 0.067);
+}
+.smalldiv3 .d1 .info1 {
+    height: 40px;
+}
+.smalldiv3 .d1 .info2 {
+    height: 40px;
+}
+.smalldiv3 .d1 .info3 {
+    height: 40px;
+}
+.smalldiv3 .d1 p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+/* Small div4 */
+.smalldiv4{
+    width: 228px;
+    height: 101px;
+    margin-top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.307);
+}
+.smalldiv4 .d1{
+    margin-top: 0px;
+    background-color: rgba(128, 128, 128, 0.065);
+}
+.smalldiv4 .d1 .info1 {
+    height: 40px;
+}
+.smalldiv4 .d1 .info2 {
+    height: 40px;
+}
+.smalldiv4 .d1 .info3 {
+    height: 40px;
+}
+.smalldiv4 .d1 p{
+    font-size: 12px;
+    margin-top: 10px;
+}
